@@ -10,7 +10,7 @@ services:
   server:
     build: ./server
     volumes:
-      - ./server/:/go/src/hello-grpc-web/server
+      - ./server/:/go/src/grpc-web-react-go/server
     ports:
       - "9090:9090"
     container_name: "server"

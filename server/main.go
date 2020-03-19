@@ -1,7 +1,7 @@
 package main
 
 import (
-    pb "hello-grpc-web/server/helloworld"
+    pb "grpc-web-react-go/server/helloworld"
     "log"
     "net"
 
