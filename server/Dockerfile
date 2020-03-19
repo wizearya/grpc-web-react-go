@@ -2,7 +2,7 @@ FROM golang:1.11.1
 
 ENV GO111MODULE=on
 
-WORKDIR /go/src/grpc-web/server
+WORKDIR /go/src/grpc-web-react-go/server
 COPY . .
 RUN go get github.com/pilu/fresh
 CMD ["fresh"]
