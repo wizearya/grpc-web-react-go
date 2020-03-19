@@ -1,4 +1,4 @@
-FROM  node:10.12.0-slim
+FROM  node:12.16.0-slim
 
 WORKDIR /client
 COPY . .
