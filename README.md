@@ -1,8 +1,17 @@
 # grpc-web
 applicarion using grpc-web
 # Step1 install
-add new Client file and run creat-react-app
-# Step2
+install go plugin
+```
+$ go get -u google.golang.org/grpc
+```
+```
+$ go get -u github.com/golang/protobuf/protoc-gen-go
+```
+```
+$ export PATH=$PATH:$GOPATH/bin
+```
+# Step2 start client
 ```
 $ cd client
 ```
