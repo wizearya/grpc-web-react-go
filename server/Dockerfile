@@ -1,6 +1,6 @@
 FROM golang:1.12
 
-ENV GO111MODULE=off
+ENV GO111MODULE=on
 
 WORKDIR /go/src/grpc-web-react-go/server
 COPY . .
